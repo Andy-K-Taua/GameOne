@@ -1,0 +1,45 @@
+#mainScreen {
+    border: solid 5px;
+    height: 400px;
+}
+
+#cubeOne {
+    border: solid 5px;
+    background-color: blue;
+    position: relative;
+    left: 0px;
+}
+
+#cubeTwo {
+    border: solid 5px;
+    background-color: red;
+    position: relative;
+    right: 0px;
+}
+
+#controlPad {
+    border: solid 5px;
+    height: 200px;
+    margin-top: 50px;
+    position: relative;
+}
+
+#leftButton {
+    background-color: red;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 90px;
+    top: 70px;
+}
+
+#rightButton {
+    background-color: blue;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    right: 90px;
+    top: 70px;
+}
